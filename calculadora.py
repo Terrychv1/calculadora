@@ -2,6 +2,8 @@
 
 def sumar ( a, b):
     return a + b
+def dividir (a,b):
+     return a // b
 
 def restar ( a, b):
     return a - b
@@ -16,11 +18,10 @@ print("Calculadora")
 print("1. Sumar")
 print("2. Restar")
 print("3. Multiplicar")
+print("4. Dividir")
 
 while True:
         opcion = input("Selecciona una opción (1/2/3) o 'salir' para terminar: ")
-
-
 
         if opcion == '1':
             print("Resultado:", sumar(a, b))
@@ -28,5 +29,5 @@ while True:
             print("Resultado:", restar(a, b))
         elif opcion == '3':
             print("Resultado:", multiplicar(a, b))
-        else:
-            print("Opción no válida. Intenta de nuevo.")
+        elif opcion == '4':
+             print('Resultado:',dividir(a,b))    
