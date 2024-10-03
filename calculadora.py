@@ -5,6 +5,12 @@ def sumar ( a, b):
 def dividir (a,b):
      return a // b
 
+def restar ( a, b):
+    return a - b
+
+def multiplicar ( a, b):
+    return a * b
+
 a = float(input("Introduce el primer número: "))
 b = float(input("Introduce el segundo número: "))
 
@@ -19,5 +25,9 @@ while True:
 
         if opcion == '1':
             print("Resultado:", sumar(a, b))
+        elif opcion == '2':
+            print("Resultado:", restar(a, b))
+        elif opcion == '3':
+            print("Resultado:", multiplicar(a, b))
         elif opcion == '4':
              print('Resultado:',dividir(a,b))    
