@@ -1,7 +1,8 @@
 # funcion sumar
 
 def sumar ( a, b):
-    return a + b
+    c= a + b
+    return c
 def dividir (a,b):
      return a // b
 
