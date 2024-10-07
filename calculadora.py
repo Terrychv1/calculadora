@@ -13,6 +13,9 @@ def restar ( a, b):
 def multiplicar ( a, b):
     return a * b
 
+def calcularPotencias (a,b):
+     return a ** b
+
 a = float(input("Introduce el primer número: "))
 b = float(input("Introduce el segundo número: "))
 
